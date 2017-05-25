@@ -9,13 +9,13 @@ import pedcbimport.meta._
 import pedcbimport.meta.MetaMutation.profile_description
 import pedcbimport.study.Study    
 import pedcbimport.cancertype.CancerType
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 import pedcbimport.clinical.DataSample
-import pedcbimport.pipelines.common._
+import pedcbimport.common._
 import pedcbimport.pipelines.mutation._
 import pedcbimport.pipelines.copynumber.CopyNumberData
 import pedcbimport.pipelines.expression.ExpressionData
-import pedcbimport.pipelines.common.CommonPlayJson._
+import pedcbimport.common.CommonPlayJson._
 import utils.Tsv
 import OutputType._
 

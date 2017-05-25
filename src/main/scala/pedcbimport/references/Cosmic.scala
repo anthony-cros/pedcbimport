@@ -2,7 +2,7 @@ package pedcbimport.references
 
 import utils.Implicits.StringImplicits
 import utils.Implicits.SeqImplicits
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 
 // ===========================================================================
 case class CosmicLookup(private val data: Map[(Chromosome, StartPosition), CosmicVcfRow]) {

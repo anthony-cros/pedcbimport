@@ -1,8 +1,8 @@
-package pedcbimport.pipelines.common
+package pedcbimport.common
 
 import utils.Implicits.StringImplicits
 import pedcbimport.DataType
-import pedcbimport.pipelines.common.Wrapper.SampleId
+import pedcbimport.common.Wrapper.SampleId
 
 // ===========================================================================
 object CommonUtils {

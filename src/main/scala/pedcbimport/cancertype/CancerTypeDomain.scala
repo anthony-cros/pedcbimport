@@ -1,6 +1,6 @@
 package pedcbimport.cancertype
 
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 import pedcbimport.Enums
 import utils.Implicits.StringImplicits
 import play.api.libs.json.Json
@@ -61,7 +61,7 @@ case class CancerType(
   // ---------------------------------------------------------------------------
   object CancerType {
     
-    import pedcbimport.pipelines.common.CommonPlayJson._
+    import pedcbimport.common.CommonPlayJson._
     def fromJson(json: String): CancerType =
       Json
         .fromJson[CancerType](

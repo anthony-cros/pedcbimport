@@ -1,6 +1,6 @@
 package pedcbimport
 
-import pedcbimport.pipelines.common.CommonUtils
+import pedcbimport.common.CommonUtils
 import pedcbimport.pipelines.mutation.RawSampleMafRow
 import utils.Implicits.StringImplicits
 import utils.Implicits.ClassImplicits

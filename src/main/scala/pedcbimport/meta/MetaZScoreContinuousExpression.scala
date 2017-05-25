@@ -1,7 +1,7 @@
 package pedcbimport.meta
 
 import play.api.libs.json.Json
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 import pedcbimport.Enums
 import enumeratum.{Enum, EnumEntry, PlayJsonEnum}
 import utils.Implicits.StringImplicits

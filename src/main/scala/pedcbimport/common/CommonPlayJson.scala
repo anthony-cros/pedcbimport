@@ -1,7 +1,7 @@
-package pedcbimport.pipelines.common
+package pedcbimport.common
 
 import play.api.libs.json._
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 import pedcbimport.cancertype.CancerType
 import pedcbimport.study.Study
 

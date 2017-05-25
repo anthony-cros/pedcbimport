@@ -1,7 +1,7 @@
 package pedcbimport.references
 
 import utils.Implicits.StringImplicits
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 
 // ===========================================================================
 object GeneLookup {

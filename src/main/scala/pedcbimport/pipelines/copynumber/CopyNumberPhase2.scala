@@ -5,7 +5,7 @@ import utils.Implicits.IterableImplicits
 import utils.Implicits.StringImplicits
 import utils.Implicits.OptionImplicits
 import utils.Tsv
-import pedcbimport.pipelines.common.Wrapper.SampleId
+import pedcbimport.common.Wrapper.SampleId
 
 // ===========================================================================
 object CopyNumberPhase2 {

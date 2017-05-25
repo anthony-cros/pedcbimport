@@ -1,4 +1,4 @@
-package pedcbimport.pipelines.common
+package pedcbimport.common
 
 // ===========================================================================
 trait Wrapper {

@@ -2,8 +2,8 @@ package pedcbimport.pipelines.expression
 
 import utils.Implicits.StringImplicits
 import utils.Implicits.IterableImplicits
-import pedcbimport.pipelines.common.Wrapper._
-import pedcbimport.pipelines.common.CommonUtils
+import pedcbimport.common.Wrapper._
+import pedcbimport.common.CommonUtils
 import pedcbimport.references.GeneLookup
 import utils.Implicits.ClassImplicits
 import utils.Tsv

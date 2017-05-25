@@ -1,6 +1,6 @@
 package pedcbimport.pipelines.expression
 
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 
 // ===========================================================================
 case class Expression(

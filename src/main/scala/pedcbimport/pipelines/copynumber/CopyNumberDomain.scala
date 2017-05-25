@@ -1,7 +1,7 @@
 package pedcbimport.pipelines.copynumber
 
 import enumeratum.{Enum, EnumEntry, PlayJsonEnum}
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 import utils.Implicits.StringImplicits
 import utils.Implicits.SeqImplicits
 

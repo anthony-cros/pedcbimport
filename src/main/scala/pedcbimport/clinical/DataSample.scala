@@ -1,7 +1,7 @@
 package pedcbimport.clinical
 
 import utils.Tsv
-import pedcbimport.pipelines.common.Wrapper.SampleId
+import pedcbimport.common.Wrapper.SampleId
 
 // ===========================================================================
 object DataSample {

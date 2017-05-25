@@ -4,7 +4,7 @@ import org.junit.Test
 import junit.framework.Assert
 import pedcbimport.meta.MetaMutation
 import pedcbimport.meta.MetaMutation.profile_description
-import pedcbimport.pipelines.common.Wrapper.StudyId
+import pedcbimport.common.Wrapper.StudyId
 
 // ===========================================================================
 /** example of a more granular test */

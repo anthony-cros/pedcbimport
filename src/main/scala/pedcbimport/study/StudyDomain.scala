@@ -4,7 +4,7 @@ import enumeratum.EnumEntry
 import enumeratum.Enum
 import enumeratum.PlayJsonEnum
 import utils.Implicits.StringImplicits
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 import play.api.libs.json.Json
 
 // ===========================================================================
@@ -66,7 +66,7 @@ case class Study(
         //adult          = rawStudy.IS_ADULT.asBooleanFromBit.get
         )  
       
-      import pedcbimport.pipelines.common.CommonPlayJson._        
+      import pedcbimport.common.CommonPlayJson._        
       def fromJson(json: String): Study =
         Json
           .fromJson[Study](

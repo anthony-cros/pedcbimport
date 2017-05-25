@@ -29,7 +29,7 @@ object Study2 {
         .map(RawStudy.apply)
         .map(Study.fromRawStudy)
     
-    import pedcbimport.pipelines.common.CommonPlayJson._        
+    import pedcbimport.common.CommonPlayJson._        
     Json.toJson(studies).as[JsArray]
   }
   

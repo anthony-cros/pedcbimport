@@ -3,9 +3,9 @@ package pedcbimport.pipelines.copynumber
 import utils.Implicits.StringImplicits
 import utils.Implicits.IterableImplicits
 import utils.Implicits.PairsSeqImplicits
-import pedcbimport.pipelines.common._
-import pedcbimport.pipelines.common.CommonUtils
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common._
+import pedcbimport.common.CommonUtils
+import pedcbimport.common.Wrapper._
 import pedcbimport.references._
 import utils.Overlap
 import utils.Overlap._

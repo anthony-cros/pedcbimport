@@ -1,6 +1,6 @@
 package pedcbimport.pipelines.mutation
 
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 import pedcbimport.references.CosmicVcfRow
 
 // ===========================================================================

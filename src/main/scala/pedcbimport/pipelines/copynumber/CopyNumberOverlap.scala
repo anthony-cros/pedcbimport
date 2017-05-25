@@ -1,6 +1,6 @@
 package pedcbimport.pipelines.copynumber
 
-import pedcbimport.pipelines.common.Wrapper._
+import pedcbimport.common.Wrapper._
 import OverlapResult._
 import utils.Overlap
 import utils.Overlap._
