@@ -1,0 +1,5 @@
+case_list_name: All Tumors vs Normals
+case_list_ids: spl1	spl2
+cancer_study_identifier: my_study
+stable_id: my_study_mrna
+case_list_description: All tumor samples (2 samples)

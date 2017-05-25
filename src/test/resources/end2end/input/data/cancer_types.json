@@ -1,0 +1,7 @@
+[{
+	"_id":                     "ganglio",
+	"study":                   "my_study",
+	"rdfs:label":              "Pediatric Ganglio",
+	"clinical_trial_keywords": [ "brain", "brain tumor" ],
+	"dedicated_css_color":     "red"
+}]

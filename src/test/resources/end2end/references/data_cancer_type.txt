@@ -1,0 +1,5 @@
+clinical_trial_keywords: brain,brain tumor
+name: Pediatric Ganglio
+dedicated_color: red
+type_of_cancer: ganglio
+parent_type_of_cancer: tissue

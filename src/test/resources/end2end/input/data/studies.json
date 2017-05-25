@@ -1,0 +1,8 @@
+[ {
+  "_id" : "my_study",
+  "cancer_type" : "ganglio",
+  "rdfs:label" : "Adrenocortical Carcinoma (TCGA, Provisional)",
+  "rdfs:comment" : "TCGA Adrenocortical Carcinoma; raw data at the <A HREF=\"https://tcga-data.nci.nih.gov/\">NCI</A>.",
+  "short_name" : "ACC (TCGA)",
+  "authorizations" : [ "PUBLIC" ]
+} ]

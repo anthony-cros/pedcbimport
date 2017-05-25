@@ -1,0 +1,6 @@
+#Patient identifier	Sample identifier
+#STRING	STRING
+#1	1
+#PATIENT_ID	SAMPLE_ID
+spl1	spl1
+spl2	spl2

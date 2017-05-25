@@ -1,0 +1,9 @@
+data_filename: data_rna_seq_mrna_median_Zscores.txt
+profile_description: mRNA expression (Z-Scores)
+profile_name: mRNA Expression z-Scores (RNA-Seq)
+cancer_study_identifier: my_study
+genetic_alteration_type: MRNA_EXPRESSION
+normals_reference_mapping_id: gtex
+datatype: Z-SCORE
+show_profile_in_analysis_tab: true
+stable_id: rna_seq_mrna_median_Zscores

@@ -1,0 +1,6 @@
+Hugo_Symbol	Entrez_Gene_Id	Center	NCBI_Build	Chromosome	Start_Position	End_Position	Strand	Variant_Classification	Variant_Type	Reference_Allele	Tumor_Seq_Allele1	Tumor_Seq_Allele2	dbSNP_RS	dbSNP_Val_Status	Tumor_Sample_Barcode	Matched_Norm_Sample_Barcode	Match_Norm_Seq_Allele1	Match_Norm_Seq_Allele2	Amino_Acid_Change	ONCOTATOR_COSMIC_OVERLAPPING
+SAMD11	148398	.	GRCh37	1	879371	879371	+	Silent	SNP	C	G	T	novel		spl1	spl1	C	C	P	p.G145C(1)
+CDK11A	728642	.	GRCh37	1	1649043	1649043	+	Intron	SNP	G	C	T	rs201487059		spl1	spl1	G	G		
+LINC01128	643837	.	GRCh37	1	774999	774999	+	Intron	SNP	C	G	A	rs768789734		spl2	spl2	C	C		
+FAM41C	284593	.	GRCh37	1	807918	807918	+	5'Flank	SNP	A	T	C	novel		spl2	spl2	A	A		
+TTLL10	254173	.	GRCh37	1	1111200	1111200	+	Intron	SNP	G	C	T	novel		spl2	spl2	G	G		p.V150M(1)

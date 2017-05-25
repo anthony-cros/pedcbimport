@@ -1,0 +1,12 @@
+bin
+.cache-main
+.cache-tests
+.classpath
+project
+.project
+target
+.settings
+
+# development
+.wd
+

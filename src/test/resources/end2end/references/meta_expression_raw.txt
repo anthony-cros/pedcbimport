@@ -1,0 +1,9 @@
+data_filename: data_rna_seq_mrna.txt
+profile_description: mRNA expression (RNA-seq FPKM)
+profile_name: mRNA expression (RNA-seq FPKM)
+cancer_study_identifier: my_study
+genetic_alteration_type: MRNA_EXPRESSION
+normals_reference_mapping_id: gtex
+datatype: CONTINUOUS
+show_profile_in_analysis_tab: false
+stable_id: rna_seq_mrna
