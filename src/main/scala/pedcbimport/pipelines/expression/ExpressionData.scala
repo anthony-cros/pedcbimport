@@ -9,6 +9,7 @@ import utils.Implicits.ClassImplicits
 import utils.Tsv
 
 // ===========================================================================
+/* this is a port of https://github.com/d3b-center/d3b-maf2pedcbio/blob/f0806f2/convert-to-cbio-rnaseq/trans_to_cbio_RSEM.pl */
 object ExpressionData {
   
   def apply(

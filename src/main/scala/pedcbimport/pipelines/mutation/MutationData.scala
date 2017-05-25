@@ -12,6 +12,7 @@ import pedcbimport.references.GeneLookup
 import utils.Tsv
 
 // ===========================================================================
+/* this is a port of https://github.com/d3b-center/d3b-maf2pedcbio/blob/f0806f2/convert-to-cbio-wgs-somatic/trans_to_cbio_wgs-somatic.pl */
 object MutationData {
 
   def apply(

@@ -11,6 +11,7 @@ import utils.Overlap
 import utils.Overlap._
 
 // ===========================================================================
+/* this is a port of https://github.com/d3b-center/d3b-maf2pedcbio/blob/f0806f2/convert-to-cbio-wgs-somatic/anno_cnv.pl */
 object CopyNumberPhase1 {
     
   /**

@@ -8,6 +8,7 @@ import utils.Tsv
 import pedcbimport.common.Wrapper.SampleId
 
 // ===========================================================================
+/* this is a port of https://github.com/d3b-center/d3b-maf2pedcbio/blob/f0806f2/convert-to-cbio-wgs-somatic/trans_to_cbio_cnv.pl */
 object CopyNumberPhase2 {
   
   def apply(results: Iterable[Result]): Tsv = {
