@@ -41,8 +41,6 @@ class End2EndTest {
         cancerTypeJsonUrl,
         
         samplesDirPath)
-
-    //s"/tmp/pedcbimport".path.mkdirs; actual.foreach { case (k, v) => s"/tmp/pedcbimport/${k}".path.parent.mkdirs; s"/tmp/pedcbimport/${k}".path.writeFile(v) }
         
     val references: List[String] =
       referencesDirPath
