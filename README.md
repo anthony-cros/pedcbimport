@@ -6,3 +6,4 @@ the best place to start is looking at `End2EndTest.scala`. it takes the dummy in
 
 to run it, issue `sbt run`
 
+**see the [d3b-scala repo example](https://github.com/d3b-center/d3b-scala/blob/master/examples/pedcbimport.md) for more specific instructions on how to get setup with this project (and with such projects in general)**
