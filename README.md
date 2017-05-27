@@ -6,4 +6,9 @@ the best place to start is looking at [`End2EndTest.scala`](https://github.com/d
 
 to run it, issue `sbt run`
 
+the core of the data-processing logic is in:
+* mutation: [MutationData.scala](src/main/scala/pedcbimport/pipelines/mutation/MutationData.scala)
+* expression: [ExpressionData.scala](src/main/scala/pedcbimport/pipelines/expression/ExpressionData.scala)
+* copy number: [CopyNumberPhase1.scala](src/main/scala/pedcbimport/pipelines/copynumber/CopyNumberPhase1.scala) and [CopyNumberPhase2.scala](src/main/scala/pedcbimport/pipelines/copynumber/CopyNumberPhase2.scala)
+
 **see the [d3b-scala repo example](https://github.com/d3b-center/d3b-scala/blob/master/examples/pedcbimport.md) for more specific instructions on how to get setup with this project (and with such projects in general)**
