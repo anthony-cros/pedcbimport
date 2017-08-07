@@ -122,10 +122,14 @@ object SanityCheck {
         expected = ExpectedSchema(DataType.Mutation).size,
         actual   = rowLengths(dataType, sampleFilePath)))
 
-    else if (!actualCharacters(dataType, sampleFilePath).forall(AllowedCharacters.contains))
+    else if (!actualCharacters(ExpectedFirstRows(dataType).size, sampleFilePath).forall(AllowedCharacters.contains))
       Some(InvalidCharactersFound(
         sampleFilePath,
-        offending = actualCharacters(dataType, sampleFilePath).filterNot(AllowedCharacters.contains) ))
+        offending =
+          actualCharacters(
+              ExpectedFirstRows(dataType).size,
+              sampleFilePath)
+            .filterNot(AllowedCharacters.contains) ))
 
     else
       None
@@ -149,11 +153,11 @@ object SanityCheck {
       .toSeq
       
   // ---------------------------------------------------------------------------
-  def actualCharacters(dataType: DataType, sampleFilePath: String): List[Char] =
+  def actualCharacters(size: Int, sampleFilePath: String): List[Char] =
     sampleFilePath
       .path
       .readTsvFile()
-      .drop(ExpectedFirstRows(dataType).size) // the first lines have already been checked for more thoroughly
+      .drop(size) // the first lines have already been checked for more thoroughly
       .flatMap(
         _.flatMap(
            _.toCharArray())
