@@ -14,7 +14,7 @@ class MetaMutationTest {
 	  Assert.assertEquals(
 
 	    /* expected */
-  			 """|data_filename: data_mutations.txt
+  	 """|data_filename: data_mutations.txt
             |profile_description: Mutation data from whole genome sequencing.
             |profile_name: Mutations
             |cancer_study_identifier: my_study
@@ -22,12 +22,12 @@ class MetaMutationTest {
             |datatype: MAF
             |show_profile_in_analysis_tab: true
             |stable_id: mutations
-  				  |""".stripMargin,
+  	    |""".stripMargin,
 
 	    /* actual */
-    		MetaMutation.toMetaContent(
+    	    MetaMutation.toMetaContent(
     		  StudyId("my_study"),
-          profile_description.`Mutation data from whole genome sequencing.`))
+                  profile_description.`Mutation data from whole genome sequencing.`))
 
 }
 
