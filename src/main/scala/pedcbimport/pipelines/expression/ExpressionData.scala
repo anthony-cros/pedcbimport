@@ -85,7 +85,7 @@ object ExpressionData {
             expression
               .data                       // sample FPKM values                
               .mapValues(_ + 1)           // add 1
-              .mapValues(Math.log)        // compute ln of value
+              .mapValues(Math.log)        // compute log10 of value
               .mapValues(_ / Math.log(2)) // divide by ln(2) to get log2 (see base-changing identity)
    
          val (mean: Double, std: Double) = {             
