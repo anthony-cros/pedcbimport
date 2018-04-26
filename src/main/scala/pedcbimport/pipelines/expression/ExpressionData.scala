@@ -88,30 +88,30 @@ object ExpressionData {
               .mapValues(Math.log)        // compute ln of value
               .mapValues(_ / Math.log(2)) // divide by ln(2) to get log2 (see base-changing identity)
    
-            val (mean: Double, std: Double) = {             
-                val doubles: Array[Double] =
-                  preProcessedValues.values.toArray
+         val (mean: Double, std: Double) = {             
+            val doubles: Array[Double] =
+              preProcessedValues.values.toArray
                
-            		val mean: Double =
-            		  org.apache.commons.math3.stat.StatUtils.mean(doubles)
+            val mean: Double =
+              org.apache.commons.math3.stat.StatUtils.mean(doubles)
       
-            		val std: Double = // may be 0
-          		  Math.sqrt(
-          		    org.apache.commons.math3.stat.StatUtils.variance(doubles))          		
-          		
-          		(mean, std)
-            }
-  
-      		val zScores: Map[String, Double] =
-            preProcessedValues
-              .mapValues(_ - mean) // subtract mean
-              .mapValues(_ / std)  // divide by standard deviation
+            val std: Double = // may be 0
+              Math.sqrt(
+               org.apache.commons.math3.stat.StatUtils.variance(doubles))
           
-          assert(
-            !zScores.values.exists(_.isInfinity), // may be NaN however, if std was 0
-            (expression, preProcessedValues))              
+           (mean, std)
+          }
+  
+         val zScores: Map[String, Double] =
+           preProcessedValues
+             .mapValues(_ - mean) // subtract mean
+             .mapValues(_ / std)  // divide by standard deviation
+          
+         assert(
+           !zScores.values.exists(_.isInfinity), // may be NaN however, if std was 0
+           (expression, preProcessedValues))              
               
-      		expression.copy(data = zScores) // replace raw FPKM with z-score counterparts
+         expression.copy(data = zScores) // replace raw FPKM with z-score counterparts
        }
      
 }
